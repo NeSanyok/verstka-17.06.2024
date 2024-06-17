@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    padding-left: calc(10.66vw + 16px);
+    padding-right: calc(12.6vw + 24px);
+}
+h3{
+    margin: 0;
+    text-transform: uppercase;
+}
+p{
+    margin: 0;
+}
+.something{
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+.something h3{
+font-family: TT Hoves;
+font-size: calc(1vw + 14px);
+font-weight: 600;
+line-height: calc(1.4vw + 20px);
+text-align: left;
+}
+
+.something p{
+width: calc(8vw + 298px);
+height: calc(8.5vw + 43px);
+font-family: TT Hoves;
+font-size: calc(1vw + 14px);
+font-weight: 400;
+line-height: calc(1.4vw + 20px);
+text-align: left;
+
+}
+.how-long{
+font-family: TT Hoves;
+font-size: calc(2.6vw + 24px);
+font-weight: 500;
+line-height: calc(3.1vw + 28px);
+letter-spacing: 0.01em;
+text-align: left;
+text-transform: uppercase;
+width: calc(76.6vw + 40px);
+height: calc(-2.65vw + 170px);
+margin-bottom: calc(6,6vw + 5px);
+}
+.grid{
+    display: grid;
+    grid-template-rows: 248px 248px;
+    grid-template-columns: 428px 428px;
+    row-gap: 52px;
+    column-gap: 120px;
+}
+@media(max-width: 960px){
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+.something .practice{
+    margin-top: 30px;
+}
